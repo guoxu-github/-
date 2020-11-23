@@ -1,0 +1,22 @@
+/* components/button/button.wxss */
+.w-button {
+  height: 80rpx;
+  margin: 0 30rpx;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 0rpx;
+  border-radius: 10rpx;
+}
+.w-button image {
+  width: 50rpx;
+  margin-right: 20rpx;
+  vertical-align: middle;
+}
+.w-button text {
+  vertical-align: middle;
+  font-size: 32rpx;
+  color: #ffffff;
+}
+.hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,14 @@
+/* miniprogram/pages/info/info.wxss */
+
+.title {
+  margin-top: 40rpx;
+  font-size: 38rpx;
+  background-color: #fff;
+}
+.info {
+  margin: 20rpx;
+  font-size: 30rpx;
+}
+.btn {
+  display: flex;
+}

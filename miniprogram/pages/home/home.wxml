@@ -1,0 +1,12 @@
+<!--miniprogram/pages/home/home.wxml-->
+<w-title></w-title>
+<view class="card">
+  <block wx:for="{{cardType}}" wx:key="index">
+    <w-item title="{{item.title}}" icon="{{item.icon}}" data-index="{{index}}" bindtap="info">
+    </w-item>
+  </block>
+</view>
+
+<picker mode="selector" range="{{cardType}}" range-key="title" bindchange="add">
+  <w-button title="添加卡证" icon="/assets/add.png"></w-button>
+</picker>

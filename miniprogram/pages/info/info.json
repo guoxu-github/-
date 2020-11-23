@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "w-title": "/components/title/item",
+    "w-btn": "/components/btn/btn"
+  }
+}

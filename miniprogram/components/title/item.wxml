@@ -1,0 +1,7 @@
+<!--components/item/item.wxml-->
+<view class="box"> 
+  <view class="item">{{title}}</view>
+  <view class="slot">
+    <slot></slot>
+  </view>
+</view>

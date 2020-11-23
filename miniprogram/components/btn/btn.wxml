@@ -1,0 +1,5 @@
+<!--components/btn/btn.wxml-->
+<view class="btn" hover-class="hover" hover-stay-time="50" style="background-color: {{color}}">
+  <image src="{{icon}}" mode="widthFix"></image>
+  <view>{{title}}</view>
+</view>

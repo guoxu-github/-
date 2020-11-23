@@ -1,0 +1,19 @@
+/* components/btn/btn.wxss */
+.btn {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-radius: 14rpx;
+  padding: 8rpx;
+  font-size: 30rpx;
+  margin-right: 15rpx;
+  color: #ffffff;
+}
+image {
+  width: 35rpx;
+  margin-right: 10rpx;
+}
+
+.hover {
+  opacity: 0.8;
+}

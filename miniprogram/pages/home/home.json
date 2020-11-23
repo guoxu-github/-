@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "w-title": "/components/title/item",
+    "w-item": "/components/item/item",
+    "w-button": "/components/button/button"
+  }
+}

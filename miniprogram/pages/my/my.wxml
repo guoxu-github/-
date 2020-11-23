@@ -1,0 +1,12 @@
+<!--miniprogram/pages/my/my.wxml-->
+<view class="id">
+  <w-title class="title" title="身份证（{{idList.length}}张）"></w-title>
+  <view class="info" wx:for="{{idList}}" wx:key="index">身份证{{index+1}}： {{item.id}}</view>
+</view>
+
+<view>
+  <w-title class="title" title="银行卡（{{bankList.length}}张）"></w-title>
+  <view class="info" wx:for="{{bankList}}" wx:key="index">银行卡{{index+1}}： {{item.id}}</view>
+</view>
+
+

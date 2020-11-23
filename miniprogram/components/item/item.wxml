@@ -1,0 +1,5 @@
+<!--components/item/item.wxml-->
+<view class="item">
+  <image mode="widthFix" src="{{icon}}"></image>
+  <view class="title">{{title}}</view>
+</view>

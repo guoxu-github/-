@@ -1,0 +1,38 @@
+<!--miniprogram/pages/info/info.wxml-->
+<block wx:if="{{type == 0}}" wx:for="{{list}}" wx:key="index">
+  <view class="title">
+    <w-title title="身份证{{index+1}}信息">
+      <view class="btn">
+        <w-btn title="复制" icon="/assets/copy.png" color="#DB7844" bindtap="copy" data-index="{{index}}"></w-btn>
+        <w-btn title="删除" icon="/assets/delete.png" color="#545454" bindtap="delete" data-index="{{index}}"></w-btn>
+      </view>
+    </w-title>
+
+    <view class="info">
+      <view>卡号：{{item.id}}</view>
+      <view>卡类型： {{item.type}}</view>
+      <view>卡名字： {{item.name}}</view>
+      <view>银行信息： {{item.info}}</view>
+      <view>有效期： {{item.date}}</view>
+    </view>
+  </view>
+</block>
+
+<block wx:if="{{type == 1}}" wx:for="{{list}}" wx:key="index" class="box">
+  <view class="title">
+    <w-title title="银行卡{{index+1}}信息">
+      <view class="btn">
+        <w-btn title="复制" icon="/assets/copy.png" color="#DB7844" bindtap="copy" data-index="{{index}}"></w-btn>
+        <w-btn title="删除" icon="/assets/delete.png" color="#545454" bindtap="delete" data-index="{{index}}"></w-btn>
+      </view>
+    </w-title>
+
+    <view class="info">
+      <view>卡号：{{item.id}}</view>
+      <view>卡类型： {{item.type}}</view>
+      <view>卡名字： {{item.name}}</view>
+      <view>银行信息： {{item.info}}</view>
+      <view>有效期： {{item.date}}</view>
+    </view>
+  </view>
+</block>

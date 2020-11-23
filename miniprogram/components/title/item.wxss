@@ -1,0 +1,11 @@
+/* components/item/item.wxss */
+.item {
+  border-left: 10rpx solid #21A167;
+  padding-left: 20rpx;
+  margin: 0 15rpx;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
